@@ -18,6 +18,9 @@
 		E0FAB7E516FF49480038F2B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FAB7E416FF49480038F2B6 /* Default-568h@2x.png */; };
 		E0FAB7E816FF49480038F2B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FAB7E716FF49480038F2B6 /* ViewController.m */; };
 		E0FAB7EB16FF49480038F2B6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FAB7E916FF49480038F2B6 /* ViewController.xib */; };
+		E0FAB7F216FFD5330038F2B6 /* messi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FAB7F116FFD5330038F2B6 /* messi.jpg */; };
+		E0FAB7F416FFD5380038F2B6 /* ronaldo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FAB7F316FFD5380038F2B6 /* ronaldo.jpg */; };
+		E0FAB7F61701E2CA0038F2B6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FAB7F51701E2CA0038F2B6 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		E0FAB7E616FF49480038F2B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0FAB7E716FF49480038F2B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0FAB7EA16FF49480038F2B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0FAB7F116FFD5330038F2B6 /* messi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = messi.jpg; sourceTree = "<group>"; };
+		E0FAB7F316FFD5380038F2B6 /* ronaldo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ronaldo.jpg; sourceTree = "<group>"; };
+		E0FAB7F51701E2CA0038F2B6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FAB7F61701E2CA0038F2B6 /* CoreImage.framework in Frameworks */,
 				E0FAB7CF16FF49470038F2B6 /* UIKit.framework in Frameworks */,
 				E0FAB7D116FF49470038F2B6 /* Foundation.framework in Frameworks */,
 				E0FAB7D316FF49470038F2B6 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +80,7 @@
 		E0FAB7CD16FF49470038F2B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0FAB7F51701E2CA0038F2B6 /* CoreImage.framework */,
 				E0FAB7CE16FF49470038F2B6 /* UIKit.framework */,
 				E0FAB7D016FF49470038F2B6 /* Foundation.framework */,
 				E0FAB7D216FF49470038F2B6 /* CoreGraphics.framework */,
@@ -83,6 +91,8 @@
 		E0FAB7D416FF49470038F2B6 /* Ex02 */ = {
 			isa = PBXGroup;
 			children = (
+				E0FAB7F316FFD5380038F2B6 /* ronaldo.jpg */,
+				E0FAB7F116FFD5330038F2B6 /* messi.jpg */,
 				E0FAB7DD16FF49480038F2B6 /* AppDelegate.h */,
 				E0FAB7DE16FF49480038F2B6 /* AppDelegate.m */,
 				E0FAB7E616FF49480038F2B6 /* ViewController.h */,
@@ -163,6 +173,8 @@
 				E0FAB7E316FF49480038F2B6 /* Default@2x.png in Resources */,
 				E0FAB7E516FF49480038F2B6 /* Default-568h@2x.png in Resources */,
 				E0FAB7EB16FF49480038F2B6 /* ViewController.xib in Resources */,
+				E0FAB7F216FFD5330038F2B6 /* messi.jpg in Resources */,
+				E0FAB7F416FFD5380038F2B6 /* ronaldo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				E0FAB7F016FF49480038F2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
